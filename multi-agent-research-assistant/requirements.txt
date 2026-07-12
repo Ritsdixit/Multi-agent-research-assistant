@@ -1,0 +1,42 @@
+# --- Core web framework ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+pydantic==2.10.4
+pydantic-settings==2.7.1
+
+# --- LLM / Agent orchestration ---
+langchain==0.3.14
+langchain-community==0.3.14
+langchain-openai==0.2.14
+langchain-google-genai==2.0.7
+langgraph==0.2.62
+langchain-huggingface==0.1.2
+langchain-text-splitters==0.3.4
+langchain-core==0.3.29
+
+# --- Vector store & embeddings ---
+chromadb==0.5.23
+langchain-chroma==0.1.4
+sentence-transformers==3.3.1
+
+# --- PDF processing ---
+pypdf==5.1.0
+pymupdf==1.25.1
+
+# --- Database / memory ---
+sqlalchemy==2.0.36
+
+# --- Frontend ---
+streamlit==1.41.1
+requests==2.32.3
+
+# --- Voice (optional) ---
+SpeechRecognition==3.13.0
+gTTS==2.5.4
+pydub==0.25.1
+
+# --- Utilities ---
+python-dotenv==1.0.1
+tiktoken==0.8.0
+numpy==1.26.4
